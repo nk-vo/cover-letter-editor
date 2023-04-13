@@ -20,7 +20,7 @@ DOCX_FILE='YOUR_INPUT_DOCX_FILEPATH'
 PDF_FILE='YOUR_OUTPUT_PDF_FILEPATH'
 JSON_FILE='YOUR_OUTPUT_JSON_FILEPATH'
 ```
-2. Run the script by running `python replace_company_names.py` in the command line
+2. Run the script by running `python cover-letter-editor.py` in the command line
 3. When prompted, enter the old company name and the new company name
 4. The script will replace all instances of the old company name with the new company name in the Word document, save the updated document, convert it to a PDF file with the new company name, and store the old and new company names in the JSON file
 5. If you choose to open the new PDF file when prompted, it will be opened in your default PDF viewer
