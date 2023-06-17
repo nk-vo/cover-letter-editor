@@ -22,7 +22,7 @@ pdf_dir, pdf_file_name = os.path.split(os.getenv('PDF_FILE'))
 
 while True:
     # Prompt the user to enter the old and new company names
-    old_name = input("Enter the old company name (or press Enter to use the last new company name: {}): ".format(default_old_name))
+    old_name = input("Enter the old company name (or press Enter to use the last new company name: {} or \'exit\' to exit): ".format(default_old_name))
     if not old_name:
         old_name = default_old_name
     elif old_name.lower() == 'exit':
